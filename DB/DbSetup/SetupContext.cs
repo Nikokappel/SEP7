@@ -1,9 +1,8 @@
-﻿using Shared;
-namespace DefaultNamespace;
+﻿namespace DefaultNamespace;
 
-public class : DbContext
+public class SetupContext : DbContext
 {
-public DbSet<User> Users { get; set; }
+public DbSet<Users> Users { get; set; }
 public DbSet<Batch> Batch { get; set; }
 public DbSet<DateTime> DateTime { get; set; }
 public DbSet<Error> Error { get; set; }
