@@ -1,4 +1,5 @@
-﻿namespace DefaultNamespace;
+﻿using Shared;
+namespace DefaultNamespace;
 
 public class : DbContext
 {

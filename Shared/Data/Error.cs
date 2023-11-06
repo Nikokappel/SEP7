@@ -2,6 +2,7 @@
 
 public class Error
 {
+    [Key]
     public int BatchNo { get; set; }
     public string Reason { get; set; }
     public int ErrorMeters { get; set; }
